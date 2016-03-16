@@ -1,0 +1,51 @@
+{
+  "name": "rainger",
+  "version": "0.0.0",
+  "description": "Generate accurate date ranges for copyrights",
+  "license": "MIT",
+  "homepage": "https://github.com/dawsonbotsford/rainger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawsonbotsford/rainger.git"
+  },
+  "author": {
+    "name": "Dawson Botsford",
+    "email": "DawsonBotsford@gmail.com",
+    "url": "dawsonbotsford.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dawsonbotsford/rainger/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "ava": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "windows",
+    "lean",
+    "minimal",
+    "documented",
+    "tested",
+    "licensed",
+    "ava",
+    "dawson"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*.*.*",
+    "xo": "*.*.*",
+    "eslint-config-xo-space": "^0.8.0"
+  },
+  "xo": {
+    "space": true,
+    "eslintConfig": {
+      "extends": "xo-space"
+    }
+  }
+}
