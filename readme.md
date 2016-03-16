@@ -16,7 +16,7 @@
           <a href="https://travis-ci.org/dawsonbotsford/rainger"><img src="https://api.travis-ci.org/dawsonbotsford/rainger.svg?branch=master"></a>
         </td>
         <td align="center">
-          <a href="https://ci.appveyor.com/project/dawsonbotsford/rainger"><img src="http://www.gravatar.com/avatar/5f66f56cae930eb9ab2cd9e62b8285e6"></a>
+          <a href="https://ci.appveyor.com/project/dawsonbotsford/rainger"><img src="https://ci.appveyor.com/api/projects/status/1qjrnuj1tni0osli?svg=true"></a>
         </td>
       </tr>
     </tbody>
@@ -72,6 +72,11 @@ Type: `string` || `number`
 #### returns
 
 Type: `string`
+
+<br>
+
+## Related
+* [updateyourfooter.com](http://updateyourfooter.com/)
 
 <br>
 
