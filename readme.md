@@ -36,7 +36,7 @@ npm install --save rainger
 
 ## Usage
 
-*assuming the current year from* `Date` * function is 2016*:
+*Assuming the current year from* `Date` *function is 2016*:
 ```js
 const rainger = require('rainger');
 
@@ -63,13 +63,11 @@ Using `rainger`, you can set your copyright year once and have it change dynamic
 
 ## API
 
-### rainger(target)
+### rainger(startYear)
 
-##### target
+##### startYear
 
 Type: `string` || `number`
-
-Description: This is the year you want your range to begin at.
 
 #### returns
 

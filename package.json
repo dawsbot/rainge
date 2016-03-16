@@ -38,8 +38,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "*.*.*",
-    "xo": "*.*.*",
+    "ava": "^0.13.0",
+    "xo": "^0.12.1",
     "eslint-config-xo-space": "^0.8.0"
   },
   "xo": {
