@@ -37,6 +37,9 @@ npm install --save rainge
 ## Usage
 
 *Assuming the current year from* `Date` *function is 2016*:
+
+#### Node
+
 ```js
 const rainge = require('rainge');
 
@@ -45,6 +48,18 @@ rainge(2016);
 
 rainge(1999);
 //=> '1999 - 2016'
+```
+
+<br>
+
+#### Web
+```html
+<script src="https://rawgit.com/dawsonbotsford/rainge/master/bundle.js"></script>
+<script>
+  alert('\u00A9' + rainge(1999));
+  //=> ©1999 - 2016
+</script>
+
 ```
 
 <br>
