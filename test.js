@@ -1,19 +1,19 @@
 import test from 'ava';
-import rainger from './';
+import rainge from './';
 
 test('valid args', t => {
   t.throws(() => {
-    rainger(false);
+    rainge(false);
   }, TypeError);
 });
 
 test('date in the past', t => {
-  t.is(rainger('1999'), `1999 - 2016`);
-  t.is(rainger(1999), `1999 - 2016`);
+  t.is(rainge('1999'), `1999 - 2016`);
+  t.is(rainge(1999), `1999 - 2016`);
 });
 
 test('current year', t => {
   const currentYear = (new Date()).getFullYear();
-  t.is(rainger(currentYear), `${currentYear}`);
-  t.is(rainger(Number(currentYear)), `${currentYear}`);
+  t.is(rainge(currentYear), `${currentYear}`);
+  t.is(rainge(Number(currentYear)), `${currentYear}`);
 });

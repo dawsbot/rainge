@@ -1,6 +1,6 @@
-# Contributing to rainger
+# Contributing to rainge
 
-:metal::tada:Thank you for helping with rainger! :tada::metal:
+:metal::tada:Thank you for helping with rainge! :tada::metal:
 
 <br>
 
