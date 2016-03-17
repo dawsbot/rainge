@@ -1,12 +1,12 @@
 {
-  "name": "rainger",
+  "name": "rainge",
   "version": "0.0.0",
   "description": "Generate accurate date ranges for copyrights",
   "license": "MIT",
-  "homepage": "https://github.com/dawsonbotsford/rainger#readme",
+  "homepage": "https://github.com/dawsonbotsford/rainge#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawsonbotsford/rainger.git"
+    "url": "git+https://github.com/dawsonbotsford/rainge.git"
   },
   "author": {
     "name": "Dawson Botsford",
@@ -14,7 +14,7 @@
     "url": "dawsonbotsford.com"
   },
   "bugs": {
-    "url": "https://github.com/dawsonbotsford/rainger/issues"
+    "url": "https://github.com/dawsonbotsford/rainge/issues"
   },
   "engines": {
     "node": ">=0.12.0"
@@ -22,7 +22,8 @@
   "scripts": {
     "test": "xo && ava",
     "ava": "ava",
-    "bundle": "browserify index.js -s rainger -o bundle.js -t [ babelify --presets [ es2015 ] ]"
+    "bundle": "browserify index.js -s rainge -o bundle.js -t [ babelify --presets [ es2015 ] ]",
+    "precommit": "npm run bundle"
   },
   "files": [
     "index.js"
@@ -44,6 +45,7 @@
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "eslint-config-xo-space": "^0.8.0",
+    "husky": "^0.11.3",
     "xo": "^0.12.1"
   },
   "xo": {
