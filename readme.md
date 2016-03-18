@@ -63,6 +63,13 @@ rainge(1999);
 
 <br>
 
+Or download it with `npm install --save rainge` and reference it as:
+```html
+<script src="node_modules/rainge/bundle.js"></script>
+```
+
+<br>
+
 ## About
 
 I was tired of seeing websites in 2016 that said
