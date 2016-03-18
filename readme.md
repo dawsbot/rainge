@@ -56,8 +56,8 @@ rainge(1999);
 ```html
 <script src="https://rawgit.com/dawsonbotsford/rainge/master/bundle.js"></script>
 <script>
-  alert('\u00A9' + rainge(1999));
-  //=> ©1999 - 2016
+  alert('\u00A9 ' + rainge(1999));
+  //=> © 1999 - 2016
 </script>
 ```
 
