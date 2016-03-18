@@ -22,7 +22,7 @@
     </tbody>
   </table>
 
-> Generate accurate date ranges for copyrights
+> A one-liner to generate accurate date ranges for copyrights
 
 <br>
 
@@ -59,7 +59,6 @@ rainge(1999);
   alert('\u00A9' + rainge(1999));
   //=> ©1999 - 2016
 </script>
-
 ```
 
 <br>
