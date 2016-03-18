@@ -26,7 +26,8 @@
     "precommit": "npm run bundle"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "bundle.js"
   ],
   "keywords": [
     "windows",
