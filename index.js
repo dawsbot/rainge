@@ -9,5 +9,5 @@ module.exports = function (input) {
   }
 
   const currentYear = (new Date()).getFullYear().toString();
-  return input.toString() === currentYear ? `${currentYear}` : `${input} - ${currentYear}`;
+  return input.toString() === currentYear ? currentYear : `${input} - ${currentYear}`;
 };

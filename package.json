@@ -22,8 +22,8 @@
   "scripts": {
     "test": "xo && ava",
     "ava": "ava",
-    "bundle": "browserify index.js -s rainge -t [ babelify --presets [ es2015 ] ] | uglifyjs > bundle.js",
-    "precommit": "npm run bundle"
+    "build": "browserify index.js -s rainge -t [ babelify --presets [ es2015 ] ] | uglifyjs > bundle.js",
+    "precommit": "npm run build"
   },
   "files": [
     "index.js",
