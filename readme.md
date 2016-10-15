@@ -22,7 +22,7 @@
     </tbody>
   </table>
 
-> A one-liner to generate accurate date ranges for copyrights
+> Use date ranges that never need updating
 
 <br>
 
@@ -36,13 +36,12 @@ npm install --save rainge
 
 ## Usage
 
-*Assuming the current year from* `Date` *function is 2016*:
-
 #### Node
 
 ```js
 const rainge = require('rainge');
 
+// assuming the current year is 2016:
 rainge(2016);
 //=> '2016'
 
@@ -53,6 +52,7 @@ rainge(1999);
 <br>
 
 #### Web
+
 ```html
 <script src="https://rawgit.com/dawsonbotsford/rainge/master/bundle.js"></script>
 <script>
@@ -78,7 +78,7 @@ I was tired of seeing websites in 2016 that said
 or even worse
 >© 2012 - 2014
 
-Using `rainge`, you can set your copyright year once and have it change dynamically year-to-year. If you made your code in 2016, `rainge(2016)` will return `2016` until it is 2017, at which point `rainge(2016)` will return `2016 - 2017`
+Using `rainge`, you set your copyright year once and it will **automatically change year-to-year**. `rainge(2016)` would return `"2016"` until 2017, at which point `rainge(2016)` would return `"2016 - 2017"`
 
 <br>
 
@@ -97,6 +97,7 @@ Type: `string`
 <br>
 
 ## Related
+
 * [updateyourfooter.com](http://updateyourfooter.com/)
 
 <br>
@@ -104,8 +105,3 @@ Type: `string`
 ## License
 
 MIT © [Dawson Botsford](http://dawsonbotsford.com)
-
-<br>
-
----
-If you like this, star it. If you want to follow me, follow me.
