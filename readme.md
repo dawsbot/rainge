@@ -41,12 +41,12 @@ npm install --save rainge
 ```js
 const rainge = require('rainge');
 
-// assuming the current year is 2016:
-rainge(2016);
-//=> '2016'
+// assuming the current year is 2018:
+rainge(2018);
+//=> '2018'
 
-rainge(1999);
-//=> '1999 - 2016'
+rainge(2009);
+//=> '2009 - 2018'
 ```
 
 <br>
@@ -54,16 +54,17 @@ rainge(1999);
 #### Web
 
 ```html
-<script src="https://rawgit.com/dawsonbotsford/rainge/master/bundle.js"></script>
+<script src="https://unpkg.com/rainge/bundle.js"></script>
 <script>
   alert('\u00A9 ' + rainge(1999));
-  //=> © 1999 - 2016
+  //=> © 1999 - 2018
 </script>
 ```
 
 <br>
 
 Or download it with `npm install --save rainge` and reference it as:
+
 ```html
 <script src="node_modules/rainge/bundle.js"></script>
 ```
@@ -104,4 +105,4 @@ Type: `string`
 
 ## License
 
-MIT © [Dawson Botsford](http://dawsonbotsford.com)
+MIT © [Dawson Botsford](https://dawsbot.com)
