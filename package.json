@@ -22,7 +22,7 @@
   "scripts": {
     "test": "xo && ava",
     "ava": "ava",
-    "build": "browserify index.js -s rainge -t [ babelify --presets [ es2015 ] ] | uglifyjs > bundle.js",
+    "build": "browserify index.js -s rainge -t [ babelify --presets [ es2015 ] ] > bundle.js",
     "precommit": "npm run build"
   },
   "files": [
@@ -47,13 +47,9 @@
     "browserify": "^13.0.0",
     "eslint-config-xo-space": "^0.15.0",
     "husky": "^0.11.3",
-    "uglifyjs": "^2.4.10",
     "xo": "^0.17.0"
   },
   "xo": {
-    "space": true,
-    "eslintConfig": {
-      "extends": "xo-space"
-    }
+    "space": true
   }
 }
